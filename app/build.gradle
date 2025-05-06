@@ -7,7 +7,7 @@ android {
     compileSdk 32
     defaultConfig {
         applicationId "ss.colytitse.setappfull"
-        minSdkVersion 27
+        minSdkVersion 31
         //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 31
         versionCode 132
