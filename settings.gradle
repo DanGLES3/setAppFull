@@ -4,7 +4,9 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         jcenter()
-        maven("https://api.xposed.info/")// Warning: this repository is going to shut down soon
+        maven {
+            url "https://api.xposed.info/"
+        }
     }
 }
 rootProject.name = "SetAppFull"
