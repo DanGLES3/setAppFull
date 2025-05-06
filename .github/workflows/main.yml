@@ -29,7 +29,7 @@ jobs:
       run: ls
       
     - name: Upload build artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@ve
       with:
         name: ${{ github.sha }}
         path: app/build/outputs
